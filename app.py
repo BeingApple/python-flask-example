@@ -24,7 +24,7 @@ def branch_form():
 def test1():
 	return render_template("extends_test1.html")
 
-@app.route("/test2")
+@app.route("/test2/")
 def test2():
 	return render_template("extends_test2.html")
 
