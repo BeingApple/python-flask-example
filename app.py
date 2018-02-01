@@ -1,6 +1,6 @@
 from flask import Flask, url_for, redirect, render_template, request
 from database import db
-from models.user  import User
+from entities.user  import User
 
 
 app = Flask(__name__)
