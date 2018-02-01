@@ -10,6 +10,9 @@ __pycache__/
 # Setting
 config.py
 
+# Pycharm
+.idea/
+
 # C extensions
 *.so
 
