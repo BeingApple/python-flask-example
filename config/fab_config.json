@@ -1,0 +1,7 @@
+{
+  "REPO_URL": "https://github.com/BeingApple/flask-example.git",
+  "PROJECT_NAME": "flask-example",
+  "REMOTE_HOST_SSH": "13.125.125.110",
+  "REMOTE_USER": "ec2-user",
+  "REMOTE_KEY_FILE" : ""
+}
