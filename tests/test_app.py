@@ -1,6 +1,3 @@
-from flask import render_template_string
-
-
 def test_branch_form(flask_client):
     resp = flask_client.get('/branch_form/')
     assert resp.status_code == 200

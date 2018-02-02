@@ -3,9 +3,9 @@ from flask import url_for
 from flask import redirect
 from flask import render_template
 from flask import request
-from create_app import get_app
-from database import db
-from entities.user import User
+from project.create_app import get_app
+from project.database import db
+from project.entities.user import User
 
 
 app = get_app()
