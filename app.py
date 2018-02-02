@@ -3,11 +3,12 @@ from flask import url_for
 from flask import redirect
 from flask import render_template
 from flask import request
+from create_app import get_app
 from database import db
 from entities.user import User
 
 
-app = Flask(__name__)
+app = get_app()
 
 
 @app.route("/")

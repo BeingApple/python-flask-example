@@ -1,8 +1,7 @@
-from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from create_app import get_app
 
-
-app = Flask(__name__)
+app = get_app()
 app.config.from_object('config.database_config')
 
-db=SQLAlchemy(app)
+db = SQLAlchemy(app)
