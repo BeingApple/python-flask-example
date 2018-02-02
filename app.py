@@ -18,7 +18,7 @@ def index():
 @app.route("/branch_form/", methods=[ 'GET', 'POST'])
 def branch_form():
     if request.method == 'POST':
-        _object = User(username=request.form['userName'], number=request.form['phone1'])
+        _object = User(USERNAME=request.form['userName'], NUMBER=request.form['phone1'])
         db.session.add(_object)
         db.session.commit()
     return render_template("branchform.html")
